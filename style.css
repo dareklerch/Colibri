@@ -1,0 +1,10 @@
+@font-face
+{
+  src: url('fonts/Shapiro\ 95\ Super\ Extd.otf');
+  font-family: ShapiroSuper;
+}
+
+.font-super
+{
+ font-family: ShapiroSuper;
+}

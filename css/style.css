@@ -1,0 +1,337 @@
+/*-- Reset --*/
+
+
+@font-face
+{
+  src: url('../fonts/Shapiro\ 35\ Feather\ Text.otf');
+  font-family: ShapiroFeather;
+}
+
+@font-face
+{
+  src: url('../fonts/Shapiro\ 95\ Super\ Extd.otf');
+  font-family: ShapiroSuper;
+}
+
+  @font-face
+{
+  src: url('../fonts/Shapiro\ 97\ Air\ Extd.otf');
+  font-family: ShapiroAir;
+}
+
+.font-feather
+{
+  font-family: ShapiroFeather;
+}
+
+.font-air
+{
+ font-family: ShapiroAir;
+}
+
+
+.font-super
+{
+ font-family: ShapiroSuper;
+}
+
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: ShapiroFeather;
+  font-size: small;
+  /*background: linear-gradient(to right, #ffb600, #ffb600); 
+  background-image: url('../img/free_resources_bg.jpg')!important;  */
+  background-size:contain;
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar-brand img {
+  height: 3.8rem; 
+}
+
+.navbar-brand-icon img {
+  height: 1.2rem;  
+}
+
+.navbar {
+  /*background: linear-gradient(to right, #ffb600, #ffb600);*/
+  /*background-color: #ffb600 !important;*/
+  font-size: 0.9rem;  
+  /*letter-spacing: .1rem;*/
+  /*position: fixed;*/
+  /*box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);*/
+}
+
+.button-resources
+{
+    padding-top: 7rem;
+    padding-bottom: 7rem ;
+}
+
+.bg-yellow
+{
+  background-color:#ffb600;
+}
+
+.bg-grey
+{
+  background-color:#343038!important;
+}
+
+.font-grey
+{
+  color:#343038;
+}
+
+.font-white
+{
+  color:#ffffff;
+}
+
+.font-yellow
+{
+  color:#ffb600;
+}
+
+.bd-pink
+{
+  border-right-color: #e40f46;
+  border-right-width:0.3rem;
+  border-right-style: solid;
+}
+
+/*============= NAVIGATION UNORDERED LIST=============*/
+.nav-link-grey
+{
+  color: #343038!important;
+}
+.nav-link-yellow
+{
+  color: #ffb600!important;
+}
+
+.nav-item
+{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top:0.8rem;
+}
+
+.border-bottom
+{
+  border-bottom: 3px;
+  border-bottom-color: #ffb600!important;
+  margin-top:0rem!important;
+}
+
+.border-grey
+{
+  border-bottom: 2px;
+  border-bottom-style:solid;
+  border-bottom-color: #343038!important;
+  margin-top:0rem!important;
+}
+
+.nav-item-icon
+{
+  padding-left: 0.2rem;
+  padding-top:0.5rem;
+  padding-bottom: 0.1rem;
+}
+
+/*============= CAROUSEL =============*/
+.carousel.inner{
+  max-height: 38rem!important;
+}
+
+
+
+/*---Change Carousel Transition Speed --*/
+
+.carousel-item-next,
+.carousel-item-prev,
+carousel-item.active {
+  transition:transform 4s ease;
+}
+
+.carousel-indicators li {
+  width: 40px;
+  height: 60px;
+  margin-right:4 px;
+  margin-left: 4px;
+}
+/*-- Carousel Content --*/
+.carousel-caption
+{
+  position: absolute;
+  top:47%;
+}
+
+.carousel-caption h3{
+  font-size: 2.3rem;
+  font-weight:300;
+
+}
+p.lead
+{
+  font-size: 1.4rem;
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, .5)!important;
+  border-radius:  3.5 rem !important;
+  padding: 1rem;
+  font-family:Shapiro;
+}
+
+
+.bg-white {
+  background-color: rgba(255, 255, 255, .7)!important;
+  border-radius:  3.5 rem !important;
+  padding: 1rem;
+  font-family:Shapiro;
+}
+/*============= Opacity =============*/
+.opacity-0 {
+  opacity:0!important;
+}
+.opacity-1 {
+  opacity:0.2!important;
+}
+.opacity-2 {
+  opacity:0.4!important;
+}
+.opacity-3 {
+  opacity:0.6!important;
+}
+.opacity-4 {
+  opacity:.8!important;
+}
+.opacity-5 {
+  opacity:1!important;
+}
+
+
+
+/*============= Free Resources=============*/
+
+
+.margin-right {
+
+margin-right: 2rem;
+}
+/*============= SOCIAL MEDIA STICKY BAR =============*/
+
+.jumbotron {
+  background: linear-gradient(to right, #f2f2f2, #FBFBFB);
+  padding: 1rem 0 .5rem;
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+}
+
+
+/*============= COLUMN CONTENT =============*/
+
+
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed-background {
+  padding: 12rem 0;
+  border-top: .05rem solid black;
+  border-bottom: .05rem solid black;
+  margin-bottom: 2px;
+  height: 100vh; /*-- remove --*/
+}
+.fixed {
+  background-image: url('../img/imac.jpg');
+  position: fixed;
+}
+
+
+/*============= FOOTER =============*/
+
+
+
+/*============= SOCKET =============*/
+
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
