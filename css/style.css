@@ -173,7 +173,7 @@ html, body {
 }
 .podcast-img
 {
-  height: 20rem;
+  height: 25rem;
 }
 
 
@@ -200,6 +200,11 @@ carousel-item.active {
   left:50%;
 }
 
+.carousel-caption-lab
+{
+  position: absolute;
+  top:10%;
+}
 .carousel-caption h3{
   font-size: 2.3rem;
   font-weight:300;
