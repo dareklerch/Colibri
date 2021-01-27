@@ -167,9 +167,9 @@ html, body {
 .carousel.inner{
   max-height: 38rem!important;
 }
-.carousel-img
+.carousel-img-lab
 {
-  margin-top: -60px;
+  margin-top: 0px;
 }
 .podcast-img
 {
@@ -204,7 +204,14 @@ carousel-item.active {
 {
   position: absolute;
   top:10%;
+  margin-top: 5rem;
+  opacity: 0.2;
+  color: white;
+  font-size: 50pt;
+  font-family: ShapiroAir;
+
 }
+
 .carousel-caption h3{
   font-size: 2.3rem;
   font-weight:300;
