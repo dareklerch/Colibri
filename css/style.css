@@ -169,7 +169,7 @@ html, body {
 }
 .carousel-img
 {
-  margin-top: -90px;
+  margin-top: -100px;
 }
 .podcast-img
 {
@@ -187,8 +187,8 @@ carousel-item.active {
 }
 
 .carousel-indicators li {
-  width: 40px;
-  height: 5px;
+  width: 30px;
+  height: 2px;
   margin-right:4 px;
   margin-left: 4px;
 }
@@ -196,7 +196,7 @@ carousel-item.active {
 .carousel-caption
 {
   /*position: absolute;*/
-  top:65%;
+  top:68%;
   left:50%;
 }
 
