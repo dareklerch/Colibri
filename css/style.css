@@ -171,9 +171,14 @@ html, body {
 {
   margin-top: 0px;
 }
+
+.carousel-img
+{
+  margin-top: -70px;
+}
 .podcast-img
 {
-  height: 25rem;
+  height: 23rem;
 }
 
 
@@ -183,7 +188,7 @@ html, body {
 .carousel-item-next,
 .carousel-item-prev,
 carousel-item.active {
-  transition:transform 4s ease;
+  transition:transform 10s ease;
 }
 
 .carousel-indicators li {
