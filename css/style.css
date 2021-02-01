@@ -316,7 +316,7 @@ margin-right: 2rem;
 
 @keyframes moveSlideshow {
   100% { 
-    transform: translateX(-1689px);  
+    transform: translateX(-1686px);  
   }
 }
 
