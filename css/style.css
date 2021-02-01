@@ -183,12 +183,12 @@ html, body {
 
 
 
-/*---Change Carousel Transition Speed --*/
-
+/*---Change Carousel Transition Speed 
+--*/
 .carousel-item-next,
 .carousel-item-prev,
 carousel-item.active {
-  transition:transform 10s ease;
+  transition:transform 4.2s ease;
 }
 
 .carousel-indicators li {
@@ -212,7 +212,7 @@ carousel-item.active {
   margin-top: 5rem;
   opacity: 0.2;
   color: white;
-  font-size: 50pt;
+  font-size: 55pt;
   font-family: ShapiroAir;
 
 }
@@ -279,6 +279,49 @@ margin-right: 2rem;
   border-radius: 0;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
 }
+
+
+/*lab slider*/
+.tech-slideshow {
+  height: 100px;
+  max-width: 1800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 3363px;
+  background: url('../img/slider.jpg');
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 30s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 8  s linear infinite;
+}
+/*.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}*/
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-1689px);  
+  }
+}
+
+
+
 
 
 /*============= COLUMN CONTENT =============*/
