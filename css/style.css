@@ -151,7 +151,7 @@ html, body {
 
 .nav-item-icon
 {
-  padding-left: 0.4rem;
+  padding-left: 0.6rem;
   padding-top:0.9rem;
   padding-bottom: 0.1rem;
 }
@@ -174,7 +174,7 @@ html, body {
 
 .carousel-img
 {
-  margin-top: -70px;
+  margin-top: 0px;
 }
 .podcast-img
 {
@@ -202,7 +202,7 @@ carousel-item.active {
 {
   /*position: absolute;*/
   top:68%;
-  left:52%;
+  left:50.5%;
 }
 
 .carousel-caption-lab
