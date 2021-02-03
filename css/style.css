@@ -134,6 +134,14 @@ html, body {
   padding-bottom: 0.6rem;
 }
 
+.email{
+  padding-top:1.1rem;
+  padding-bottom: 0.6rem;
+  padding-left:10%!important;
+}
+
+
+
 .border-bottom
 {
   border-bottom: 3px;
@@ -162,6 +170,8 @@ html, body {
   padding-top:0.9rem;
   padding-bottom: 0.1rem;
 }
+
+
 
 /*============= CAROUSEL =============*/
 .carousel.inner{
@@ -263,6 +273,7 @@ p.lead
 
 
 
+
 /*============= Free Resources=============*/
 
 
@@ -354,14 +365,20 @@ margin-right: 2rem;
 /*============= MEDIA QUERIES =============*/
 
 
+
 @media (max-width: 1799.98px) {
-  .nav-item {
-    padding-right:5rem!important;
+.nav-item {
+  padding-right:5rem!important;
 }
+.email
+{
+  padding-left:10%!important;
+}
+
 
 @media (max-width: 1699.98px) {
   .nav-item {
-    padding-right:4rem!important;
+    padding-right:3rem!important;
 }
 
 @media (max-width: 1599.98px) {
@@ -413,11 +430,8 @@ margin-right: 2rem;
 
 
 /*============ BOOTSTRAP BREAK POINTS:
-
-
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
   .nav-item {
