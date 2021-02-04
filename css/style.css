@@ -65,7 +65,7 @@ html, body {
 {
   max-height: 2rem;
   padding: 0rem!important;
-  font-size:x-small;
+  font-size: x-small;
   margin:0rem!important;
 }
 
@@ -380,7 +380,18 @@ margin-right: 2rem;
 }
 
 @media (max-width: 1499.98px) {
+  .navbar
+  {
+    font-size: 0.75rem;
+  }
+
+  .navbar-brand-icon img {
+    height: 1.1rem;  
+  }
   
+  .navbar-brand-icon-msg img {
+    height: 1.5rem;  
+  }
 }
 
 
