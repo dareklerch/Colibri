@@ -272,7 +272,14 @@ p.lead
   opacity:1!important;
 }
 
-
+.services-section
+{
+  margin-top: 8rem;
+}
+.services-column
+{
+  margin-top: 8%;
+}
 
 
 /*============= Free Resources=============*/
@@ -396,6 +403,18 @@ margin-right: 2rem;
   {
     font-size:1.4rem!important;
   }
+
+  .services-section
+{
+  margin-top: 2rem!important;
+}
+
+.services-column
+{
+  margin-top: 4%;
+}
+
+
 }
 
 
