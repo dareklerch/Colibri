@@ -392,6 +392,10 @@ margin-right: 2rem;
   .navbar-brand-icon-msg img {
     height: 1.5rem;  
   }
+  .h3
+  {
+    font-size:1.4rem!important;
+  }
 }
 
 
