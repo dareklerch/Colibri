@@ -308,6 +308,9 @@ margin-right: 2rem;
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
+  margin-top: 4%;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .tech-slideshow > div {
@@ -424,6 +427,10 @@ margin-right: 2rem;
   position: absolute;
   top:64%;
   left:44%;
+}
+
+.tech-slideshow {
+  margin-top: 2%;
 }
 
 
