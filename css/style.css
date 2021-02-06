@@ -281,6 +281,12 @@ p.lead
   margin-top: 8%;
 }
 
+.team-column 
+{
+  padding-left: 2rem; 
+  padding-right: 1rem;
+  margin-top:8%;
+}
 
 /*============= Free Resources=============*/
 
@@ -435,7 +441,31 @@ margin-right: 2rem;
 
 
 }
+/*Team Page style*/
+.container1 {
+border-width: 0pt;
 
+}
+
+.container1 img {
+  width: 100%; 
+}
+
+.overlay {
+  
+  display:none!important;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.no-gutter
+{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.container1:hover + .overlay {
+  display: block!important;
+}
 
 @media (max-width: 1399.98px) {
   
