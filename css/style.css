@@ -315,14 +315,15 @@ margin-right: 2rem;
 /*lab slider*/
 .tech-slideshow {
   height: 100px;
-  width: auto;
+  width: 96%;
   margin: 0 auto;
-  position: relative;
+  bottom:2%;
+  position: absolute;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
   margin-top: 4%;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .tech-slideshow > div {
@@ -341,26 +342,28 @@ margin-right: 2rem;
 
 .tech-slideshow-team {
   height: 100px;
-  width: auto;
+  width: 96%;
   margin: 0 auto;
-  position: relative;
+  bottom:2%;
+  position: absolute;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
   margin-top: 4%;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .tech-slideshow-contact {
   height: 100px;
-  width: auto;
+  width: 96%;
   margin: 0 auto;
-  position: relative;
+  bottom:2%;
+  position: absolute;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
   margin-top: 4%;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .tech-slideshow-team > div {
