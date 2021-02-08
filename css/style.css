@@ -160,7 +160,7 @@ html, body {
 
 .nav-item-icon
 {
-  padding-left: 0.6rem;
+  padding-left: 1rem;
   padding-top:0.9rem;
   padding-bottom: 0.1rem;
 }
@@ -394,7 +394,7 @@ margin-right: 2rem;
 {
   border-radius:0;
 }
-.border-bottom
+.border-bottom-grey
 {
   border-bottom: 2px solid rgba(255, 255, 255,.1)!important;
 
