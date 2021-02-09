@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Colibri</title>
+	<link rel="shortcut icon" href="img/colibri-logo-white-small.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-grey">
+	<div id="navigation-sticky">
+		<nav class="navbar bg-grey navbar-light navbar-expand-lg sticky-top" style="padding: 0rem!important;">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse col-md-5 border-bottom" id="navbarResponsive" style="padding: 0rem!important;">
+				<div class="col-md-11">
+					<ul class="navbar-nav mr-auto font-yellow font-super">
+						 <li class="nav-item"><a href="index.html" class="active font-yellow">home</a></li>
+					 	<li class="nav-item"><a href="services.html" class="font-yellow">team</a></li>
+					 	<li class="nav-item"><a href="services.html" class="font-yellow">services</a></li>
+					 	<li class="nav-item" style="padding-right: 0px!important; padding-left:unset!important; text-align: right;"><a href="free_resoruces.html" class="font-yellow">resources</a></li>
+					 	<!--<li class="nav-item"><a href="" class="nav-link-yellow">Contact Us</a></li>-->
+					</ul>
+				</div>
+            </div>
+			<div class="col-md-2 text-center navbar-brand">
+				<img src="img/colibri_logo_transparent.png" alt="no logo">
+			</div>
+            <!--<div class="col-md-3 border-bottom">
+                <p><span class="font-white">stay in touch at</span> <span class="font-yellow">alvaro@colibriinnovation.com</span></p>
+            </div>-->
+            <div class="col-md-5 border-bottom">
+				<div class="col-md-11 offset-md-1">
+					<ul class="navbar-nav">
+                    	<li class="email"><span class="font-white font-super">stay in touch at</span> <span class="font-yellow font-super"><a href="contact.html" class="font-yellow">alvaro@colibriinnovation.com</a></span></li>
+                    	<li class="nav-item-icon"><a href="https://www.linkedin.com/m/company/colibr%C3%AD-deep-tech/" class="navbar-brand-icon text-center"><img src="img/logo_Linkedin.png" alt="no logo"></a></li>
+                   		<li class="nav-item-icon"><a href="https://www.facebook.com/arvelizosorio" class="navbar-brand-icon text-center"><img src="img/logo_facebook.png" alt="no logo"></a></li>
+                    	<li class="nav-item-icon" style="padding-right: 0.6rem!important;"><a href="#" class="navbar-brand-icon-msg text-center"><img src="img/logo_messenger.png" alt="no logo"></a></li>
+                   		<!-- <li class="nav-item"></li>
+                    	<li class="nav-item"><a href="services.html" class="nav-link-yellow">Services</a></li>  -->
+					</ul>
+				</div>
+            </div>
+        </nav>
+        <div class="row justify-content-start">
+            <div class="col-md-6  team-column" style="padding-left: 6rem; padding-right: 1rem; " >
+			    <div class="row">
+                    <div class="font-white font-super text-left h2" style="margin-top:10%; margin-right: 2%; margin-left:5%">Just shoot us an email.</br>We will get back.</div>
+                    <form style="margin-top:2%; margin-right: 2%; margin-left:5%">
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput"></label>
+                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0 border-radius-none bg-grey border-bottom-grey" id="Name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col">       
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput2"></label>
+                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0 border-radius-none bg-grey border-bottom-grey" id="Email" placeholder="Email Address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">       
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput"></label>
+                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0 border-radius-none bg-grey border-bottom-grey" id="Company" placeholder="Company">
+                                </div>
+                            </div>
+                            <div class="col">       
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2"></label>
+                            <textarea class="form-control border-top-0 border-right-0 border-left-0 border-radius-none bg-grey border-bottom-grey" id="Message"  placeholder="Message" rows="4"></textarea>
+                        </div>
+                        <a href="https://www.linkedin.com/m/company/colibr%C3%AD-deep-tech/" class="navbar-brand-icon text-center"><img src="img/logo_Linkedin.png" alt="no logo"></a>
+                   		<a href="https://www.facebook.com/arvelizosorio" class="navbar-brand-icon text-center"><img src="img/logo_facebook.png" alt="no logo"></a>
+                        <a href="#" class="navbar-brand-icon-msg text-center"><img src="img/logo_messenger.png" alt="no logo"></a>
+                        <button type="submit" onClick="sendEmail()" class="btn btn-lg btn-dark float-right">Submit</button> 
+                    </form>
+                </div>
+                <div class="row">
+                <div class="col-md-12" style="margin-top: 5%; margin-left:5%">
+                    	 
+                </div>
+                
+                </div>
+            </div>
+            <div class="col-md-6  team-column" style="padding-left: 6rem; padding-right: 3rem; " >
+			    <div class="row">
+				
+			    </div>
+		    </div>
+            
+		</div>
+			
+			
+		<div class="tech-slideshow-contact col-md-12" style="margin-top:12%;">
+            <div class="mover-3"></div>
+				<!--<div class="mover-2"></div>-->
+			</div>
+		<!-- End Image Carousel -->
+
+		</div> <!-- End Navigation Sticky ID Section -->
+
+
+
+
+	</div> <!-- End Text Button Sticky -->
+
+
+
+
+
+
+
+	<!-- Start Footer -->
+
+	<!-- End Footer -->
+
+
+	<!-- Start Socket -->
+
+	<!-- End Socket -->
+
+
+	<!-- Script Source Files -->
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+	<script>
+    function sendEmail() {
+        var email = 'alvaro@colibriinnovation.com';
+        var subject = document.getElementById('Name').value+" "+ document.getElementById('Company').value+ " "+ document.getElementById('Email').value;
+        var emailBody = document.getElementById('Message').value;
+        var link = "mailto:test@example.com?subject="+ subject + "&body=" + emailBody;
+        /*window.open('mailto:test@example.com?subject=subject&body=emailbody');*/
+        window.open(link);
+    }
+
+
+	</script>
+		
+
+	<!-- End Script Source Files -->
+</body>
+</html>
