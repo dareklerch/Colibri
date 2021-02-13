@@ -444,6 +444,14 @@ margin-right: 2rem;
   position: fixed;
 }
 
+.contact-icon-msg img {
+  height: 2.1rem;  
+}
+
+.contact-icon img {
+  height: 1.7rem;  
+}
+
 
 /*============= FOOTER =============*/
 
@@ -478,13 +486,31 @@ margin-right: 2rem;
   .navbar-brand-icon img {
     height: 1.1rem;  
   }
+
+  .contact-icon img {
+    height: 1.7rem;  
+  }
   
+
   .navbar-brand-icon-msg img {
     height: 1.5rem;  
+  }
+
+  .contact-icon-msg img {
+    height: 2.1rem;  
   }
   .h3
   {
     font-size:1.4rem!important;
+  }
+
+  .btn-submit
+  {
+    background-image: url('../img/Contact/submit_button.png')!important; 
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    width: 100px!important;
+    height: 40px!important;
   }
 
   .services-section
