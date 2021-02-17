@@ -115,6 +115,12 @@ html, body {
   border-right-width:0.3rem;
   border-right-style: solid;
 }
+.bd-bottom-pink
+{
+  border-bottom-color: #e40f46;
+  border-bottom-width:0.3rem;
+  border-bottom-style: solid;
+}
 
 /*============= NAVIGATION UNORDERED LIST=============*/
 .nav-link-grey
