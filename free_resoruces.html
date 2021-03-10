@@ -37,8 +37,8 @@
 				<div class="col-md-11 offset-md-1">
 					<ul class="navbar-nav">
 						<li class="email"><span class="font-white font-super">stay in touch at</span> <span class="font-yellow font-super"><a href="contact.html" class="font-yellow">alvaro@colibriinnovation.com</a></span></li>
-						<li class="nav-item-icon"><a href="https://www.linkedin.com/company/colibr%C3%AD-deep-tech/" class="navbar-brand-icon text-center"><img src="img/logo_Linkedin.png" alt="no logo"></a></li>
-						<li class="nav-item-icon"><a href="https://www.facebook.com/arvelizosorio" class="navbar-brand-icon text-center"><img src="img/logo_facebook.png" alt="no logo"></a></li>
+						<li class="nav-item-icon"><a href="https://www.linkedin.com/company/colibrí-deep-tech/" target="_blank" class="navbar-brand-icon text-center"><img src="img/logo_Linkedin.png" alt="no logo"></a></li>
+						<li class="nav-item-icon"><a href="https://www.facebook.com/arvelizosorio" target="_blank" class="navbar-brand-icon text-center"><img src="img/logo_facebook.png" alt="no logo"></a></li>
 						<li class="nav-item-icon" style="padding-right: 0.6rem!important;"><a href="#" class="navbar-brand-icon-msg text-center"><img src="img/logo_messenger.png" alt="no logo"></a></li>
 					   <!-- <li class="nav-item"></li>
 						<li class="nav-item"><a href="services.html" class="nav-link-yellow">Services</a></li>  -->
@@ -50,25 +50,113 @@
         <div class="container-fluid p-5" style="background-image: url('img/free_resources_bg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; height: 100%; overflow: hidden;">
             <div class="row services-section">
                     <div class="col-md-6 my-3">
-                        <div class="col-md-12 button-resources bg-yellow" style="background-image: url('img/Resources/podcast.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%; overflow: hidden;">
-                            <p class="text-center font-super h1">PODCAST</p>
-                        </div>
+                        <div class="top-left col-md-12 button-resources bg-yellow">
+                            <p class="text-center"><a href="#" onmouseover="hoverPodcast()" onmouseout="mouseleavePodcast()" class="font-super font-grey h1">PODCAST</a></p>
+                        
+						
+						</div>
                     </div>
                     <div class="col-md-6 my-3">
-                      <div class="col-md-12 button-resources bg-yellow">
+						<!---->
+                      <div id="publications" class="top-right col-md-12 button-resources bg-yellow" onmouseover="hidePublications(this)"">
                         <p class="text-center font-super h1">PUBLICATIONS</p>
                     </div>
+
+					<div id="publications-matrix" class="h-100 col-md-12 bg-green" onmouseleave="showPublications(this)">
+						<div class="row h-50">
+							<div class="col-md-6 border-bottom-5 border-right-5 border border-warning bg-green">
+								<div class="row h-100">
+									<img id="Alvaro" src="img/Resources/corner.png" class="img-corner">
+									<div class="col-md-12 my-auto">
+										<p class="text-center font-super h3"><a class="text-white" href="index.html" onmouseout="hideCorner('Alvaro')" onmouseenter="showCorner('Alvaro')">Alvaro</a></p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 top-right-publications bg-green d-flex justify-content-center border-bottom-5 border border-warning  border-left-5">
+								<div class="cell row h-100">
+									<img id="Aleksandra" src="img/Resources/corner.png" class="img-corner">
+									<div class="col-md-12 my-auto">
+										<p class="text-center font-super h3" onmouseout="hideCorner('Aleksandra')" onmouseover="showCorner('Aleksandra')"><a class="text-white" href="index.html">Aleksandra</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row h-50">  
+							<div class="col-md-6 bg-green border-top-5 border border-warning  border-right-5">
+								<div class="row h-100">
+									<img id="Adela"  class="img-corner" src="img/Resources/corner.png">
+									<div class="col-md-12 my-auto" >
+										<p class="text-center font-super h3"><a class="text-white" href="index.html" onmouseout="hideCorner('Adela')" onmouseover="showCorner('Adela')">Adela</a></p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 bg-green border-top-5 border border-warning  border-left-5">
+								<div class="row h-100">
+									<img id="Tomek" class="img-corner" src="img/Resources/corner.png">
+									<div class="col-md-12 my-auto">
+										<p class="text-center font-super h3"><a class="text-white" href="index.html" onmouseout="hideCorner('Tomek')" onmouseover="showCorner('Tomek')">Tomek</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
                 </div>
             </div>
             <div class="row">
                     <div class="col-md-6 my-3">
-                        <div class="col-md-12 button-resources bg-yellow">
+                        <div id="social-media" class="bottom-left col-md-12 button-resources bg-yellow" onmouseover="hideSocial(this)">
                             <p class="text-center font-super h1">SOCIAL MEDIA</p>
+                        </div>
+						<div id="social-media-matrix" class="h-100 col-md-12 bg-green" onmouseleave="showSocial(this)">
+							<div class="row h-50">
+								<div class="col-md-6 border-bottom-5 border-right-5 border border-warning bg-green">
+									<div class="row h-100">
+										<img id="facebook" src="img/Resources/corner.png" class="img-corner">
+										<div class="col-md-12 my-auto">
+											<p class="text-center font-super h3"><a class="text-white" href="https://www.facebook.com/arvelizosorio" target="_blank" onmouseout="hideCorner('facebook')" onmouseover="showCorner('facebook')">facebook</a></p>
+										</div>
+									</div>
+								</div>
+			
+								<div class="col-md-6 bg-green d-flex justify-content-center border-bottom-5 border border-warning  border-left-5">
+									<div class="row h-100">
+										<img id="twitter" src="img/Resources/corner.png" class="img-corner">
+										<div class="col-md-12 my-auto">
+											<p class="text-center font-super h3"><a class="text-white" href="" onmouseout="hideCorner('twitter')" onmouseover="showCorner('twitter')">twitter</a></p>
+										</div>
+									</div>
+							</div>
+							</div>
+							
+							
+							<div class="row h-50">
+								<div class="col-md-6 bottom-left-social bg-green border-top-5 border border-warning  border-right-5">
+									<div class="row h-100">
+										<img id="linkedin" src="img/Resources/corner.png" class="img-corner">
+										<div class="col-md-12 my-auto">
+											<p class="text-center font-super h3"><a class="text-white" href="https://www.linkedin.com/company/colibrí-deep-tech/" target="_blank" onmouseout="hideCorner('linkedin')" onmouseover="showCorner('linkedin')">linkedin</a></p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 bg-green border-top-5 border border-warning  border-left-5">
+									<div class="row h-100">
+										<img id="mediumcom" src="img/Resources/corner.png" class="img-corner">
+										<div class="col-md-12 my-auto">
+											<p class="text-center font-super h3"><a class="text-white" href="" onmouseleave="hideCorner('mediumcom')" onmouseover="showCorner('mediumcom')">medium.com</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
                         </div>
                     </div>
                     <div class="col-md-6 my-3">
-                        <div class="col-md-12 button-resources bg-yellow">
-                            <p class="text-center font-super h1">BLOG</p>
+                        <div class="bottom-right col-md-12 button-resources bg-yellow">
+                            <p class="text-center"><a href="#" onmouseover="hoverBlog()" onmouseout="mouseleaveBlog()" class="font-super font-grey h1">BLOG</a></p>
                         </div>
                     </div>
             </div>
@@ -184,6 +272,97 @@
 	<!-- Font Awesome -->
 	<script src="js/all.min.js"></script>
 	<script>
+	function hoverPodcast() {
+		/*var element = document.getElementsByClassName(':before');
+		element.style.top = "-3rem";
+		element.style.left="-3rem"*/
+
+
+		var styleElem = document.head.appendChild(document.createElement("style"));
+
+		styleElem.innerHTML = ".top-left:before {top: -1.5rem; left: -1.5rem;}";
+	 }
+	 function mouseleavePodcast() {
+		/*var element = document.getElementsByClassName(':before');
+		element.style.top = "-3rem";
+		element.style.left="-3rem"*/
+
+
+		var styleElem = document.head.appendChild(document.createElement("style"));
+
+		styleElem.innerHTML = ".top-left:before {top: -0.5rem; left: -0.5rem}";
+	 }
+
+
+	 function hoverBlog() {
+		/*var element = document.getElementsByClassName(':before');
+		element.style.top = "-3rem";
+		element.style.left="-3rem"*/
+
+
+		var styleElem = document.head.appendChild(document.createElement("style"));
+
+		styleElem.innerHTML = ".bottom-right:before {bottom: -1.5rem; right: -1.5rem;}";
+	 }
+	 function mouseleaveBlog() {
+		/*var element = document.getElementsByClassName(':before');
+		element.style.bottom = "-3rem";
+		element.style.right="-3rem"*/
+
+
+		var styleElem = document.head.appendChild(document.createElement("style"));
+
+		styleElem.innerHTML = ".bottom-right:before {bottom: -0.5rem; right: -0.5rem}";
+	 }
+
+	 function hideSocial(element)
+	 {
+		 element.style.display="none";
+		 var el = document.getElementById('social-media-matrix')
+		 el.style.display="block";
+	 }
+
+	 function showSocial(element)
+	 {
+		 element.style.display="none";
+		 var el = document.getElementById('social-media')
+		 el.style.display="block";
+	 }
+
+	 function hidePublications(element)
+	 {
+		 element.style.display="none";
+		 var el = document.getElementById('publications-matrix')
+		 el.style.display="block";
+		 console.log('hidepublications');
+	 }
+
+	 function showPublications(element)
+	 {
+		 element.style.display="none";
+		 var el = document.getElementById('publications')
+		 el.style.display="block";
+		 console.log('showpublications');
+	 }
+
+	 function showCorner(name)
+	 {
+		var element = document.getElementById(name); 
+		element.style.display="block";
+		console.log('showCorner');
+	 }
+
+	 function hideCorner(name)
+	 {
+		var element = document.getElementById(name); 
+		element.style.display="none";
+		console.log('hidecorner');
+	 }
+
+
+
+
+
 	</script>
 		
 

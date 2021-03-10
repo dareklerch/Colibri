@@ -46,6 +46,10 @@ html, body {
   background-size:contain;
 }
 
+a:hover {
+  color: white!important;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
@@ -77,7 +81,14 @@ html, body {
   /*position: fixed;*/
   /*box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);*/
 }
+.free-resources-link
+{
+ text-align: center !important;
 
+ font-family: ShapiroSuper!important;
+ color:#343038!important;
+
+}
 .button-resources
 {
     padding-top: 9rem;
@@ -429,8 +440,23 @@ margin-right: 2rem;
 }
 
 
+.border-bottom-5 {
+  border-bottom-width:5px !important;
+}
+.border-top-5 {
+  border-top-width:5px !important;
+}
+.border-left-5 {
+  border-left-width:5px !important;
+}
+.border-right-5 {
+  border-right-width:5px !important;
+}
 
-
+.bg-green
+{
+  background-color: #8dc719;
+}
 
 /*============= COLUMN CONTENT =============*/
 
@@ -456,11 +482,150 @@ margin-right: 2rem;
   padding-right: .5rem;  
 }
 
+#social-media
+{
+  display:block;
+}
+
+#social-media-matrix
+{
+  display:none
+}
+
+#publications-matrix
+{
+  display:none;
+}
+
+#publications
+{
+  display:block;
+}
+
+
+
 .contact-icon img {
   height: 1.8rem;  
   padding-left: .5rem;
   padding-right: .5rem;  
 }
+
+
+.top-left:before {
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  top: -0.5rem;
+  height: 25%;
+  width: 30%;
+  border-top: 1rem solid #e40f46;
+  border-left: 1rem solid #e40f46;
+}
+
+.bottom-left:before {
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  bottom: -0.5rem;
+  height: 25%;
+  width: 30%;
+  border-bottom: 1rem solid #e40f46;
+  border-left: 1rem solid #e40f46;
+}
+.bottom-left-social:before {
+  content: "";
+  position: absolute;
+  left: -1.5rem;
+  bottom: -1.5rem;
+  height: 50%;
+  width: 60%;
+  border-bottom: 1rem solid #e40f46;
+  border-left: 1rem solid #e40f46;
+}
+
+.img-corner
+{
+  position:absolute;
+ 
+  top:0;
+  left:0;
+  size:20%;
+}
+
+#Tomek
+{
+
+  display:none;
+
+}
+
+#Adela
+{
+  display:none;
+}
+
+#Aleksandra
+{
+  display:none;
+}
+#Alvaro
+{
+  display:none;
+}
+
+#facebook
+{
+  display:none;
+}
+
+#linkedin
+{
+  display:none;
+}
+
+#mediumcom
+{
+  display:none;
+}
+
+#twitter
+{
+  display:none;
+}
+
+.top-right:before {
+  content: "";
+  position: absolute;
+  right: -0.5rem;
+  top: -0.5rem;
+  height: 25%;
+  width: 30%;
+  border-top: 1rem solid #e40f46;
+  border-right: 1rem solid #e40f46;
+}
+
+.top-right-publications:before {
+  content: "";
+  position: absolute;
+  right: -1.5rem;
+  top: -1.5rem;
+  height: 50%;
+  width: 60%;
+  border-top: 1rem solid #e40f46;
+  border-right: 1rem solid #e40f46;
+}
+
+.bottom-right:before {
+  content: "";
+  position: absolute;
+  right: -0.5rem;
+  bottom: -0.5rem;
+  height: 25%;
+  width: 30%;
+  border-bottom: 1rem solid #e40f46;
+  border-right: 1rem solid #e40f46;
+}
+
 
 
 /*============= FOOTER =============*/
